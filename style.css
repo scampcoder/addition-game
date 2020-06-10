@@ -10,3 +10,8 @@ table {
   border: 5px;
   padding: 50px;
 }
+
+.operator {
+  font-size: 45px;
+  font-weight: bold;
+}
