@@ -3,3 +3,10 @@ table {
   height: 300px;
   text-align: center;
 }
+
+.numbers {
+  font-size: 45px;
+  font-weight: bold;
+  border: 5px;
+  padding: 50px;
+}
