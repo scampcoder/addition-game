@@ -15,3 +15,8 @@ table {
   font-size: 45px;
   font-weight: bold;
 }
+
+input {
+  padding: 10px;
+  border: 2px solid blue;
+}
