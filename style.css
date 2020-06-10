@@ -26,3 +26,12 @@ input {
   padding: 10px;
   border: 2px solid blue;
 }
+
+#btn {
+  background-color: red;
+  color: #fff;
+  padding: 12px;
+  border-style: none;
+  font-weight: bold;
+  width: 100px;
+}
