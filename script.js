@@ -6,7 +6,7 @@ number2 = Math.floor((Math.random() * 10) + 1); //(Random number * 10) & increas
 document.getElementById('number1').innerHTML = number1; //place the new variables in the HTML
 document.getElementById('number2').innerHTML = number2;
 
-const answer = number1 + numer2;
+const answer = number1 + number2;
 
 const checkAnswer = document.querySelector('input[type=text]');
 const value = checkAnswer.value;
