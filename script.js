@@ -10,3 +10,4 @@ const answer = number1 + numer2;
 
 const checkAnswer = document.querySelector('input[type=text]');
 const value = checkAnswer.value;
+const button = document.querySelector('input[type=button][value=CHECK]'); //make sure we are selecting the correct button with the value of 'CHECK'
