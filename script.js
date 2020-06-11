@@ -11,3 +11,12 @@ const answer = number1 + number2;
 const checkAnswer = document.querySelector('input[type=text]');
 const value = checkAnswer.value;
 const button = document.querySelector('input[type=button][value=CHECK]'); //make sure we are selecting the correct button with the value of 'CHECK'
+
+btn.onclick = function() {
+  value = checkAnswer.value
+  if (value == answer) { //if user answer is correct
+    alert("You are correct!");
+  } else {
+    alert ("Bummer! The right answer is " + answer + ".")
+  }
+}
