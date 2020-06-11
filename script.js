@@ -7,3 +7,5 @@ document.getElementById('number1').innerHTML = number1; //place the new variable
 document.getElementById('number2').innerHTML = number2;
 
 const answer = number1 + numer2;
+
+const checkAnswer = document.querySelector('input[type=text]');
