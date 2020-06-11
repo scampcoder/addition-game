@@ -9,3 +9,4 @@ document.getElementById('number2').innerHTML = number2;
 const answer = number1 + numer2;
 
 const checkAnswer = document.querySelector('input[type=text]');
+const value = checkAnswer.value;
